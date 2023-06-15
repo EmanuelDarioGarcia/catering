@@ -30,13 +30,19 @@ const Navbar = () => {
                 </ul>
 
                 { /* Mobile button */}
-                <div className='block sm:hidden z-10 text-white '>
+                <div onClick={handleNav} className='block sm:hidden z-10 text-white '>
                     {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} /> }
                 </div>
 
                 { /* Mobile menu */}
                 
-                <div className={nav ? 'sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300 text-white' : ' sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300 text-white'}>
+                <div 
+                    className={
+                        nav 
+                            ? 'sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300 text-white' 
+                            : 'sm:hidden absolute top-0 left-full right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300 text-white'
+                    }
+                >
                     <ul>
                         <li className='p-4 text-4xl hover:text-gray-500'>
                             <Link href='/' >Home</Link>
