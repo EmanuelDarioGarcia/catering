@@ -1,22 +1,22 @@
 export const SliderData = [
     {
         image:
-            ' https://ibb.co/BTgNw5w'
+            'https://i.postimg.cc/L6MYC8vC/img1.jpg'
     },
     {
         image: 
-            'https://ibb.co/FKGWc0M'
+            'https://i.postimg.cc/FHrfvCM0/img2.jpg'
     },
     {
         image:
-            'https://ibb.co/brYmSkm'
+            'https://i.postimg.cc/GmX4mJRV/img3.jpg'
     },
     {
         image:
-            'https://ibb.co/ScPY3F7'
+            'https://i.postimg.cc/dtm7zcxq/img4.jpg'
     },
     {
         image:
-            'https://ibb.co/NyLLfDn'
+            'https://i.postimg.cc/s21vQQDX/img5.jpg'
     },
 ];
