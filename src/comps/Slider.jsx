@@ -22,38 +22,40 @@ const Slider = ({ slides }) => {
     <div id='galeria' className='max-w-[1240px] mx-auto'>
       <h1 className='text-2xl font-bold text-center p-4'>Galeria</h1>
       <div className='relative flex justify-center p-4'>
-
+      <FaArrowCircleLeft
+              onClick={prevSlide}
+              className='absolute bottom-1/4 left-0 text-white/70 cursor-pointer select-none z-10 w-24'
+              style={{ color: "gray" }}
+              size={50}
+            />
+      <FaArrowCircleRight
+              onClick={nextSlide}
+              className='absolute right-0 bottom-1/4  text-white/70 cursor-pointer select-none z-10 w-24'
+              style={{ color: "gray" }}
+              size={50}
+            />
       {SliderData.map((slide, index) => {
         return (
           <div
             key={index}
             className={
               index === current
-                ? 'opacity-[1] ease-in duration-1000'
+                ? 'opacity-[1] ease-in duration-1000 z-0'
                 : 'opacity-0'
             }
           >
-              <FaArrowCircleLeft
-                onClick={prevSlide}
-                className='absolute top-[50%] left-[30px] text-white/70 cursor-pointer select-none z-[2]'
-                style={ { color: "red" }}
-                size={50}
+
+            {index === current && (
+              <Image
+                src={slide.image}
+                alt='/'
+                width='600'
+                height='800'
+                objectFit='cover'
               />
-              {index === current && (
-                <Image
-                  src={slide.image}
-                  alt='/'
-                  width='1440'
-                  height='600'
-                  objectFit='cover'
-                />
-              )}
-              <FaArrowCircleRight
-                onClick={nextSlide}
-                className='absolute top-[50%] right-[30px] text-white/70 cursor-pointer select-none z-[2]'
-                size={50}
-              />
-            </div>
+            )}
+
+          </div>
         );
     })}
     </div>

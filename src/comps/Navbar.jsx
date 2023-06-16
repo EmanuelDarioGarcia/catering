@@ -77,7 +77,7 @@ const Navbar = () => {
                             <Link href='/#portfolio' >Menues</Link>
                         </li>
                         <li className='p-4 text-4xl hover:text-gray-500'>
-                            <Link href='/' >Contacto</Link>
+                            <Link href='/#contacto' >Contacto</Link>
                         </li>
                     </ul>
                 </div>
