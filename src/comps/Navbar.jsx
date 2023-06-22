@@ -41,9 +41,6 @@ const Navbar = () => {
                         <Link href='/#galeria' >Galeria</Link>
                     </li>
                     <li className='p-4'>
-                        <Link href='/#portfolio' >Menues</Link>
-                    </li>
-                    <li className='p-4'>
                         <Link href='/#contacto' >Contacto</Link>
                     </li>
                 </ul>
@@ -72,9 +69,6 @@ const Navbar = () => {
                         </li>
                         <li className='p-4 text-4xl hover:text-gray-500'>
                             <Link href='/#galeria' >Galeria</Link>
-                        </li>
-                        <li className='p-4 text-4xl hover:text-gray-500'>
-                            <Link href='/#portfolio' >Menues</Link>
                         </li>
                         <li className='p-4 text-4xl hover:text-gray-500'>
                             <Link href='/#contacto' >Contacto</Link>
