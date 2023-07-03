@@ -5,7 +5,7 @@ import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 const Navbar = () => {
     const [nav, setNav] = useState(false)
     const [color, setColor] = useState('trasparent')
-    const [textColor, setTextColor] = useState('white')
+    const [textColor, setTextColor] = useState('#E6FFFD')
 
     const handleNav = () => {
         setNav(!nav)
@@ -14,11 +14,11 @@ const Navbar = () => {
     useEffect (() => {
         const changeColor = () => {
             if (window.scrollY >=90) {
-                setColor('#B5B2B2')
-                setTextColor('#000000')
+                setColor('#FEDEFF')
+                setTextColor('#B799FF')
             } else {
-                setColor ('trasparent')
-                setTextColor('#ffffff')
+                setColor ('transparent')
+                setTextColor('#ACBCFF')
             }
         }
         window.addEventListener('scroll', changeColor);
@@ -29,7 +29,7 @@ const Navbar = () => {
                 style={{backgroundColor: `${color}`}} 
             className='fixed left-0 top-0 w-full z-10 ease-in duration-300 '
             >
-            <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-black'>
+            <div className='max-w-[1240px] m-auto flex justify-between items-center p-4'>
                 <Link href='/'>
                     <h1 style={{color: `${textColor}`}} className='font-bold text-4xl z-50'>
                         Catering La Turquesa
