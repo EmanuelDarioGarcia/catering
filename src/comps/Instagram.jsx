@@ -14,9 +14,9 @@ import InstagramImg from './Instagramimg'
 
 const Instagram = () => {
   return (
-    <div className='max-w-[1240px] mx-auto text-center py-24'>
-      <p className='text-2xl font-bold'>Seguime en las redes</p>
-      <p className='pb-4'>En Facebook, como: Catering "La Turquesa"</p>
+    <div className='max-w-[1240px] mx-auto text-center py-4'>
+      <h1 className='text-5xl font-bold'>Seguinos en las redes</h1>
+      <p className='pb-4 text-2xl'>En Facebook, como: Catering "La Turquesa"</p>
       <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 p-4'>
         <InstagramImg socialImg={Img1} />
         <InstagramImg socialImg={Img2} />

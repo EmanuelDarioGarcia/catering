@@ -9,6 +9,7 @@ import HeroSlider, { Overlay, Slide, MenuNav } from "hero-slider";
 import Wrapper from "comps/Wrapper";
 import Title from "comps/Title";
 import Subtitle from "comps/Subtitle";
+import Gallery from "comps/Gallery";
 
 
 const cateringPic = "https://images.pexels.com/photos/3217157/pexels-photo-3217157.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
@@ -18,7 +19,7 @@ const eventosPic = "https://images.pexels.com/photos/50675/banquet-wedding-socie
 const dulcePic = "https://images.pexels.com/photos/6222/food-lunch-table-snack.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 const pizzaPic = "https://images.pexels.com/photos/1653877/pexels-photo-1653877.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 const pernilPic = "https://cottontreemeats.com.au/wp-content/uploads/2018/10/Christmas-Jam.jpg"
-
+const tortaPic = "https://images.pexels.com/photos/1702373/pexels-photo-1702373.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 export default function Home() {
     return (
         <div>
@@ -109,12 +110,19 @@ export default function Home() {
                     backgroundImageSrc: pernilPic
                     }}
                 />
+                <Slide
+                    shouldRenderMask
+                    label="Tortas Alusivas"
+                    background={{
+                    backgroundImageSrc: tortaPic
+                    }}
+                />
 
                 <MenuNav />
             </HeroSlider>
-            <Hero heading='La Turquesa' message='Hacemos tu evento inolvidable. ' />
-            <Slider slides={SliderData} />
-            <Instagram />
+            <Hero heading='La Empresa' message='Hacemos tu evento inolvidable. ' />
+{/*             <Slider slides={SliderData} /> */}
+            <Gallery />
             <Contacto />
         </div>
     );
