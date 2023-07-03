@@ -24,13 +24,13 @@ const Slider = ({ slides }) => {
       <div className='relative flex justify-center p-4'>
       <FaArrowCircleLeft
               onClick={prevSlide}
-              className='absolute bottom-1/4 left-0 text-white/70 cursor-pointer select-none z-10 w-24'
+              className='absolute bottom-2/4 left-0 text-white/70 cursor-pointer select-none z-10 w-24'
               style={{ color: "gray" }}
               size={50}
             />
       <FaArrowCircleRight
               onClick={nextSlide}
-              className='absolute right-0 bottom-1/4  text-white/70 cursor-pointer select-none z-10 w-24'
+              className='absolute right-0 bottom-2/4  text-white/70 cursor-pointer select-none z-10 w-24'
               style={{ color: "gray" }}
               size={50}
             />

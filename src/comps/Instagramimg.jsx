@@ -4,11 +4,11 @@ import { FaFacebook } from "react-icons/fa"
 
 const InstagramImg = ({socialImg}) => {
   return (
-    <div className="relative">
+    <div className="relative ">
       <Image 
         src={socialImg} 
         alt='/' 
-        className="w-full h-full" 
+        className="w-full h-full " 
         layout="responsive" 
       />
       {/*Overlay*/}

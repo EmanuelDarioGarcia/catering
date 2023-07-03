@@ -18,7 +18,7 @@ const Navbar = () => {
                 setTextColor('#000000')
             } else {
                 setColor ('trasparent')
-                setTextColor('#000000')
+                setTextColor('#ffffff')
             }
         }
         window.addEventListener('scroll', changeColor);
@@ -31,7 +31,9 @@ const Navbar = () => {
             >
             <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-black'>
                 <Link href='/'>
-                    <h1 style={{color: `${textColor}`}} className='font-bold text-4xl z-50'>Catering La Turquesa</h1>
+                    <h1 style={{color: `${textColor}`}} className='font-bold text-4xl z-50'>
+                        Catering La Turquesa
+                    </h1>
                 </Link>
                 <ul style={{color: `${textColor}`}} className='hidden sm:flex'>
                     <li className='p-4'>
