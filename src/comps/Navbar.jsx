@@ -30,20 +30,20 @@ const Navbar = () => {
             className='fixed left-0 top-0 w-full z-10 ease-in- duration-300 '
             >
             <div className='max-w-[1240px] m-auto flex justify-between items-center p-4'>
-                <Link href='/'>
+                <a href='/'>
                     <h1 style={{color: `${textColor}`}} className='font-bold text-4xl z-50'>
                         Catering La Turquesa
                     </h1>
-                </Link>
+                </a>
                 <ul style={{color: `${textColor}`}} className='hidden sm:flex'>
                     <li className='p-4'>
-                        <Link href='/' >Home</Link>
+                        <a href='/#home' >Home</a>
                     </li>
                     <li className='p-4'>
-                        <Link href='/#galeria' >Galeria</Link>
+                        <a href='/#galeria' >Galeria</a>
                     </li>
                     <li className='p-4'>
-                        <Link href='/#contacto' >Contacto</Link>
+                        <a href='/#contacto' >Contacto</a>
                     </li>
                 </ul>
 

@@ -22,7 +22,7 @@ const pernilPic = "https://cottontreemeats.com.au/wp-content/uploads/2018/10/Chr
 const tortaPic = "https://images.pexels.com/photos/1702373/pexels-photo-1702373.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 export default function Home() {
     return (
-        <div>
+        <div id="home">
             <Head>
                 <title>La Turquesa Catering</title>
             </Head>
