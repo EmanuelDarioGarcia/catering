@@ -4,6 +4,7 @@ import Slider from '../comps/Slider'
 import { SliderData } from "comps/SliderData";
 import Contacto from "comps/Contacto";
 import Instagram from "comps/Instagram";
+import Whatsapp from 'comps/whatsapp'
 
 import HeroSlider, { Overlay, Slide, MenuNav } from "hero-slider";
 import Wrapper from "comps/Wrapper";
@@ -124,6 +125,7 @@ export default function Home() {
 {/*             <Slider slides={SliderData} /> */}
             <Gallery />
             <Contacto />
+            <Whatsapp />
         </div>
     );
 }
