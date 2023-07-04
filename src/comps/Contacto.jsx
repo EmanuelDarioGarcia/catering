@@ -6,7 +6,7 @@ const Contacto = () => {
   return (
     <div id='contacto'>
       <div className='pl-5'>
-        <h2 className='text-5xl pb-6'>Contactanos</h2>
+        <h1 className='text-5xl mb-6 pb-3 font-bold border-b-4 flex justify-center '>Contactanos</h1>
         <h3 className='text-4xl'>Llamanos al:<FaPhone/> 4280-1738</h3>
         
         <ul>
