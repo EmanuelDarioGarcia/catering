@@ -7,7 +7,7 @@ const Gallery = () => {
             <div class="image-gallery">
                 <div class="column">
                     <div class="image-item">
-                        <img src='https://i.postimg.cc/L6MYC8vC/img1.jpg' alt="" />
+                        <img src='https://i.postimg.cc/dtm7zcxq/img4.jpg' alt="" />
                         <div class="overlay"><span>Torta Alusiva</span></div>
                     </div>
                     <div class="image-item">
@@ -29,7 +29,7 @@ const Gallery = () => {
                 </div>
                 <div class="column">
                     <div class="image-item">
-                        <img src='https://i.postimg.cc/dtm7zcxq/img4.jpg' alt="" />
+                        <img src='https://i.postimg.cc/L6MYC8vC/img1.jpg' alt="" />
                         <div class="overlay"><span>Torta Alusiva</span></div>
                     </div>
                     <div class="image-item">
