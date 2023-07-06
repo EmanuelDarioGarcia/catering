@@ -1,21 +1,9 @@
 import React from 'react'
 
-import Img1 from '../../public/img1.jpg'
-import Img2 from '../../public/img2.jpg'
-import Img3 from '../../public/img3.jpg'
-import Img4 from '../../public/img4.jpg'
-import Img5 from '../../public/img5.jpg'
-import Img6 from '../../public/img6.jpg'
-import Img7 from '../../public/img7.jpg'
-import Img8 from '../../public/img8.jpg'
-import Img9 from '../../public/img9.jpg'
-import Img10 from '../../public/img10.jpg'
-import Img11 from '../../public/img11.jpg'
-
 const Gallery = () => {
     return (
-        <div id='galeria' class="container">
-            <h1 className='text-5xl flex justify-center pb-3 mb-6 border-b-4 font-bold'>Galeria</h1>
+        <div id='galeria' class="container bg-gradient-to-r from-pink-200 to-lime-400">
+            <h1 className='text-5xl flex justify-center pb-3 mb-6 border-b-4 font-bold '>Galeria</h1>
             <div class="image-gallery">
                 <div class="column">
                     <div class="image-item">

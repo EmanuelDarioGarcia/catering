@@ -6,7 +6,7 @@ import { FaEnvelope } from 'react-icons/fa'
 const Contacto = () => {
   return (
     <div id='contacto'>
-      <div className='pl-5'>
+      <div className='pl-5 bg-gradient-to-r from-pink-200 to-lime-400'>
         <h1 className='text-5xl mb-6 pb-3 font-bold border-b-4 flex justify-center '>Contactanos</h1>
         <h3 className='text-4xl turq pb-4'>Llamanos al:</h3>
         <div className='flex flex-row p-2'>

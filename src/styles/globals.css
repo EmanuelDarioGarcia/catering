@@ -16,7 +16,8 @@
 }
 h1 {
     font-family: kalam, sans-serif;
-    color: #8b5ff2;    
+    color: #8b5ff2;   
+    font-weight: 800;
 }
 
 li {

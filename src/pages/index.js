@@ -1,9 +1,7 @@
 import Hero from "comps/Hero";
 import Head from 'next/head';
-import Slider from '../comps/Slider'
-import { SliderData } from "comps/SliderData";
+
 import Contacto from "comps/Contacto";
-import Instagram from "comps/Instagram";
 import Whatsapp from 'comps/whatsapp'
 
 import HeroSlider, { Overlay, Slide, MenuNav } from "hero-slider";
@@ -11,7 +9,6 @@ import Wrapper from "comps/Wrapper";
 import Title from "comps/Title";
 import Subtitle from "comps/Subtitle";
 import Gallery from "comps/Gallery";
-
 
 const cateringPic = "https://images.pexels.com/photos/3217157/pexels-photo-3217157.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
 const mozosPic = "https://images.pexels.com/photos/2291367/pexels-photo-2291367.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
@@ -122,7 +119,6 @@ export default function Home() {
                 <MenuNav />
             </HeroSlider>
             <Hero heading='La Empresa' message='Hacemos tu evento inolvidable. ' />
-{/*             <Slider slides={SliderData} /> */}
             <Gallery />
             <Contacto />
             <Whatsapp />
