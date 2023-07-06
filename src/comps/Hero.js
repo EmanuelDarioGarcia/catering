@@ -16,7 +16,6 @@ const Hero = ({ heading, message }) => {
                     <li>El contacto con los jóvenes chef le dará una tranquilizadora sensación de alegría, limpieza, frescura, orden y eficiencia. </li>
                     <br/>
                     <li>Por eso le ofrecemos nuestros servicios para eventos y festejos inolvidables, tales como Pizza Party, Pasta Party, Tacos, cazuelas, parrillas, y nuestros servicios de Lunch una opcion super completa y abunadante.</li>
-                    <li>Tambien contamos con servicios Empresariales los cuales se adaptana a la necesidad de cada cliente.</li>
                     <br/>
                 </ul>
                 <h1 className='py-5 text-4xl'> {message} </h1>
